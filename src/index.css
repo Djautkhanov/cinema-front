@@ -3,6 +3,14 @@ body {
   text-shadow: 0 0.05rem 0.1 rem rgb(0, 0, 0 / 50%)
 }
 
+h1 {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
 /* .app {
   text-align: center;
   background-image: url(https://i.playground.ru/p/g2-xXCQT32k3d2fczh-A_Q.jpeg);
@@ -13,98 +21,11 @@ body {
   background-position: center;
 } */
 
-.header {
-  width: 1199px;
-  height: 50px;
-  border: 1px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  justify-content: space-between;
-}
 
-.logo {
-  margin-left: 20px;
-  width: auto;
-  height: auto;
-  font-size: 48px;
-  display: flex;
-  align-items: center;
 
-}
 
-.logo-image {
-  width: 60px;
-  height: 50px;
-  color:red;
-  margin-top: 5px;
-  margin-right: 5px;
-  
-}
-.cinema {
-  color: white;
-} 
 
-.park {
-color: rgb(255, 0, 0);
-display: flex;
-align-items: center;
-}
 
-.inp input {
-  width: 300px;
-  height: 25px;
-  padding-left: 12px;
-  border-radius: 7px;
-  border: none;
-}
-
-.user button {
-  width: 200px;
-  height: 200px;
-  border: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 20px;
-  cursor: pointer;
-  color: #fff;
-  background-color: initial;
-}
-
-.justice {
-margin: auto;
-display: flex;
-text-align: center;
-}
-
-.sidebar {
-
-  width: 300px;
-  height: 800px;
-
-  margin-top: 20px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
-
-ul {
-  list-style-type: none;
-  font-family: 'Inter';
-  font-size: 32px;
-  text-align: left;
-  line-height: 3rem;
-  
-}
-
-li:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 10px;
-  cursor: pointer;
-}
 
 
 

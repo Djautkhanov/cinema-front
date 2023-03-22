@@ -1,0 +1,13 @@
+.items{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+    max-width: 1300px;
+    row-gap: 30px ;
+}
+
+.items img{
+    width: 400px;
+    height: 400px; 
+}

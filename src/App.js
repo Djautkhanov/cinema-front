@@ -1,13 +1,19 @@
-import Header from "./components/header/Header"
-import Sidebar from "./components/Sidebar"
+import { Route, Routes } from "react-router-dom"
+import Header from "./components/Header/Header"
+import Sidebar from "./components/sidebar/Sidebar"
+import Home from './pages/Home/Home'
+import './index.css'
 
 const App = () => {
   return (
-    <div className="app">
-      <Header />
-      <Sidebar />
-    </div>
+    <>
+    <Header />
+    <Sidebar />
+    <Routes>
+      <Route path="/" element={<Home/>}/>   
+    </Routes>
+    </>
   )
 }
 
-export default App
+export default App  
