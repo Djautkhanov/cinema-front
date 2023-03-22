@@ -1,29 +1,31 @@
-.header {
-  width: 1199px;
-  height: 50px;
-  border: 1px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  justify-content: space-between;
+body {
+  background-color: #000000;
+  text-shadow: 0 0.05rem 0.1 rem rgb(0, 0, 0 / 50%)
 }
 
-.logo {
-  margin-left: 20px;
+h1 {
+  text-align: left;
 }
 
-.inp input {
-  width: 300px;
-  height: 25px;
-  padding-left: 5px;
+ul {
+  text-align: left;
 }
 
-.right-header {
-  width: 150px;
-  height: 40px;
-  border: 1px solid;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+/* .app {
+  text-align: center;
+  background-image: url(https://i.playground.ru/p/g2-xXCQT32k3d2fczh-A_Q.jpeg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+} */
+
+
+
+
+
+
+
+
+
